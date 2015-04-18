@@ -1,0 +1,177 @@
+html { font-family: "Open Sans", Tahoma, sans-serif; }
+
+/* utility classes */
+
+@media (min-width: 1000px) and (max-width: 1439px) {
+	.inner { width: 960px; margin: 0 auto; }
+}
+
+.left     { float: left;  width: 50%; box-sizing: border-box; }
+.right    { float: right; width: 50%; box-sizing: border-box; }
+.clearfix { clear: both; }
+
+/* typography */
+
+h1 { font-weight: 300; font-size: 6em; margin: 0; padding: 0; letter-spacing: -0.075em; }
+p  { font-weight: 400; font-size: 2em; margin: 0; padding: 0; letter-spacing: -0.05em;  }
+a, a:active, a:visited { text-decoration: none; color: inherit; font-weight: 400; }
+p a, strong { font-weight: 600; }
+
+#name {
+	background-image: url("/images/name-background.png");
+
+	color: #2a2a2a;
+	text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.25);
+	padding: 4em 0;
+}
+
+#name .left  { margin-top: 3em; }
+#name .right { text-align: center; }
+
+#name-image {
+	width: 18em;
+	height: 18em;
+	display: inline-block;
+
+	background-image: url("/images/name-picture.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	border-radius: 50%;
+	border: 0.8em solid white;
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.25);
+}
+
+#wherefrom {
+	height: 32em;
+	color: #efefef;
+	text-align: center;
+
+	background-image: url("/images/wherefrom-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.75);
+}
+
+#wherefrom .inner {
+	padding-top: 8em;
+}
+
+#wherefrom h1 {
+	display: inline-block;
+}
+
+#whatdo {
+	height: 32em;
+	color: #2a2a2a;
+	text-align: right;
+	background-image: url("/images/whatdo-background.png");
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.75);
+}
+
+#whatdo .inner {
+	padding-top: 9em;
+}
+
+#whatdo h1 {
+	display: inline-block;
+}
+
+#kde{
+	height: 32em;
+	color: #efefef;
+
+	background-image: url("/images/kde-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.75);
+}
+
+#kde .inner {
+	padding-top: 9em;
+}
+
+#kde h1 {
+	display: inline-block;
+}
+
+#blog{
+	height: 32em;
+	color: #2a2a2a;
+	text-align: right;
+	background-image: url("/images/blog-background.png");
+
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.75);
+}
+
+#blog .inner {
+	padding-top: 9em;
+}
+
+#blog h1 {
+	display: inline-block;
+}
+
+#osfy{
+	height: 42.67em;
+	color: #efefef;
+	text-align: center;
+	font-size: 75%;
+
+	background-image: url("/images/osfy-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.75);
+}
+
+#osfy .inner {
+	padding-top: 14em;
+}
+
+#osfy h1 {
+	display: inline-block;
+}
+
+#social-media{
+	height: 32em;
+	color: #2a2a2a;
+	background-image: url("/images/socialmedia-background.png");
+
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.75);
+}
+
+#social-media .inner {
+	padding-top: 9em;
+}
+
+#social-media h1 {
+	display: inline-block;
+}
+
+#contact{
+	height: 32em;
+	color: #efefef;
+	text-align: right;
+
+	background-image: url("/images/contact-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.75);
+}
+
+#contact .inner {
+	padding-top: 9em;
+}
+
+#contact h1 {
+	display: inline-block;
+}
